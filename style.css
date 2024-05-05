@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter",sans-serif;
+    background-color: rgb(255, 25,0,0.69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+   background-color: #fff;
+   padding: 50px 20px;
+   text-align: center;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   width: 800px;
+   max-width: 100%;
+   box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.75);
+}
+h3{
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+.btn{
+    background-color: rgb(255, 25,0,0.85);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn:hover{
+    background-color: rgba(143, 15, 117, 0.788);
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+.btn:active{
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
+}
+.btn:focus{
+    outline: none;
+}
